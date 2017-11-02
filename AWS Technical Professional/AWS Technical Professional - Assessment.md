@@ -72,7 +72,7 @@
 ### What AWS service would you use to establish a dedicated connection for data transfer from your data center into an Amazon region?
 * AWS Direct Connect
 
-### Customers can achieve a global presence by using multiple: (check all that apply)
+### Customers can achieve a global presence by using multmultiple: (check all that apply)
 * edge locations
 * AWS regions
 
@@ -81,3 +81,48 @@
 
 ### Once your big data analysis is completed and the result data is stored, the EC2 instances can be shut down.
 * True
+
+### Under the shared responsibility model, AWS manages which of the following security measures:
+
+### Cloud computing requires you to host dedicated services with restricted access on your LAN.
+* False
+
+### Which AWS service gives you the ability to automatically increase or decrease your compute capacity based on parameters that you define?
+
+### You can move large data sets into S3 by:
+* all of the above
+```
+uploading in parallel from multiple clients
+using UDP-based uploads to EC2 instances, and then pushing the data to S3
+sending the data on your own storage device to AWS and having the data transferred directly into S3 or EBS volumes using the Import/Export service
+```
+
+### When communicating with AWS, which methods are secure?
+* all
+```
+Logging into the AWS Console
+Making requests of the AWS API endpoints
+Establishing a VPN to ypur VPC
+Logging a call with AWS technical support
+```
+
+### AWS services allow you to focus more resources and effort on innovation while focusing less on system administration
+* True
+
+### In the shared security model, AWS is responsible for which of the following security best practices: (check all that apply)
+
+### AWS provides a fault-tolerant design through which of the following:
+* all of the above
+```
+N+1 configuration to load-balance traffic in the case of a data center failure
+Each Availability Zone is designed as an isolated failure zone
+Data centers are each powered from different grids from independent utilities
+```
+
+### AWS Lambda does the following: (check all that apply)
+* Manages computer infrastructure
+* Runs code without provisioning or managing servers
+* Runs code in response to "events"
+
+### Which AWS Service is the most appropriate for running dynamically generated websites?
+* Amazon EC2
